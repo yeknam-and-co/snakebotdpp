@@ -1,6 +1,7 @@
 # 🐍 snake built in discord
 
 this shit barely works dude i have to be honest im not fighting discord ratelimits here
+day 3/30 of learning cpp ❤️
 
 ## ✨ cool stuff this bot does
 
@@ -36,8 +37,8 @@ this shit barely works dude i have to be honest im not fighting discord ratelimi
 
 1. **get the code:**
    ```bash
-   git clone <ur-repo-here>
-   cd discordcpp
+   git clone https://github.com/yeknam-and-co/snakebotdpp.git
+   cd snakebotdpp
    ```
 
 2. **install dpp:**
@@ -53,6 +54,7 @@ this shit barely works dude i have to be honest im not fighting discord ratelimi
            -L./DPP/build/library -ldpp \
            -framework CoreFoundation -framework Security
    ```
+yes i do use a mac dont flame the fuck out of me
 
 4. **put ur token somewhere:**
    ```bash
@@ -78,12 +80,12 @@ u can change stuff in `main.cpp` if u want:
 - **board size** - mess with `SnakeGame(9, 9, ...)` for bigger/smaller grid  
 - **starting size** - change how long snake starts
 
-## 🎮 how this garbage works
+## 🎮 how this shit works
 
 ### snake movement
 - snake moves every 2 seconds whether u like it or not
 - button clicks change direction instantly
-- cant do 180s (no going left when going right u idiot)
+- cant do 180s (no going left when going right u dumbass)
 
 ### scoring
 - score = how long ur snake is
@@ -94,28 +96,11 @@ u can change stuff in `main.cpp` if u want:
 - hit any wall
 - bite urself like an ouroboros
 
-## 🏗️ code structure (for nerds)
-
-```
-main.cpp
-├── coord struct          # x,y positions 
-├── snakegame class       # all the game logic shit
-│   ├── move()           # make snake go places
-│   ├── check_collision() # did u hit something
-│   ├── check_food()     # did u eat something  
-│   ├── place_food()     # put apple somewhere random
-│   └── render()         # draw the grid with emojis
-└── discord bot stuff     # dpp event handlers
-    ├── slash commands   # /startsnake
-    ├── button clicks    # arrow controls
-    └── game loop        # updates every 2 secs
-```
-
 ## 📋 commands
 
 | what u type | what happens |
 |-------------|--------------|
-| `/startsnake` | starts snake game duh |
+| `/startsnake` | starts snake game |
 
 ## 🎨 what stuff looks like
 
@@ -123,14 +108,6 @@ main.cpp
 - 🟩 snake body  
 - 🍎 food/apple
 - ⬜ nothing
-
-## 🤝 contributing (if u want)
-
-1. fork it
-2. make a branch (`git checkout -b feature/some-cool-shit`)
-3. commit ur changes (`git commit -m 'added cool shit'`)
-4. push that branch (`git push origin feature/some-cool-shit`)
-5. make a pull request
 
 ## 📝 license
 
@@ -155,4 +132,8 @@ if something breaks just make an issue on github and maybe ill fix it
 
 ---
 
-made with ❤️ and way too much caffeine ☕ 
+made with love ❤️, ian t
+
+the readme wasnt tho this shit was fully chatgpted im not documenting SHIT until i get paid for it
+
+if theres genuine problem trying to get shit wrong then try to contact me discord:yeknampogo
